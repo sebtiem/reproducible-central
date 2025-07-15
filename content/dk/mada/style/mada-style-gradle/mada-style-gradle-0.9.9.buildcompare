@@ -1,5 +1,0 @@
-version=0.9.9
-ok=5
-ko=0
-okFiles="dk.mada.style.gradle.plugin-0.9.9.pom mada-style-gradle-0.9.9-sources.jar mada-style-gradle-0.9.9.jar mada-style-gradle-0.9.9.module mada-style-gradle-0.9.9.pom"
-koFiles=""

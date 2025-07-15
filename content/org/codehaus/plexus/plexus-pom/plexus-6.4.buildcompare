@@ -1,7 +1,0 @@
-version=6.4
-ok=1
-ko=2
-okFiles="plexus-6.4-site.xml"
-koFiles="plexus-6.4.pom plexus-6.4-source-release.zip"
-# diffoscope target/reference/plexus-6.4.pom pom.xml
-# diffoscope target/reference/plexus-6.4-source-release.zip target/plexus-6.4-source-release.zip
