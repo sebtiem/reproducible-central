@@ -13,8 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: create temp files, execute diffscope
-    - run: |
-      echo foo > file1
-      echo bar > file2
-      docker run --rm -t -w $(pwd) -v $(pwd):$(pwd):ro \
-      registry.salsa.debian.org/reproducible-builds/diffoscope file1 file2
+      run: |
+        echo "foo" > file1
+        echo "bar" > file2
+        docker run --rm -t -w $(pwd) -v $(pwd):$(pwd):ro \
+        registry.salsa.debian.org/reproducible-builds/diffoscope file1 file2
